@@ -1,16 +1,22 @@
 ﻿# AudioCaptureAlert
-
 OBS Studio plugin providing real-time audio input monitoring with configurable silence detection and alert notifications.
+
+## Use Cases
+- Monitors and alerts if Mic becomes unplugged or runs out of battery.
+- Monitors and alerts if an audio capture device is not playing audio (Double PC streaming setup).
 
 ## Features
 - Real-time monitoring of audio input devices
-- Configurable silence detection duration
-- Customizable visual and audio alerts
+- Configurable delay before showing source selected for alert
+- Select an image or media source for alert
+- Can be enabled only when recording or streaming automatically
 
 ## Installation
 1. Copy the plugin files to your OBS plugins directory
 2. Restart OBS Studio
 3. Configure through OBS settings
+NOTES:
+    This is a python plugin for OBS. You might have to install python and link it in the scripts section of OBS.
 
 ## Usage
 1. Select audio input device to monitor

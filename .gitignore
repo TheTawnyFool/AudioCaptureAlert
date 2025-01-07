@@ -1,0 +1,14 @@
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+*.local

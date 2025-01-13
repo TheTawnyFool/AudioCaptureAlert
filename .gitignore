@@ -1,6 +1,7 @@
 # Ignore build artifacts
 /build/
 /dist/
+__pycache__/
 
 # Ignore IDE-specific files
 .vscode/

@@ -12,3 +12,6 @@ Thumbs.db
 
 # Ignore local configuration files
 *.local
+
+# Ignore specific files
+copilot-instructions.md
